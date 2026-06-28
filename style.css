@@ -1,0 +1,54 @@
+/* Γενικές ρυθμίσεις για όλη τη σελίδα */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Επικεφαλίδα (Header) */
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Μενού Πλοήγησης (Nav) */
+nav {
+    background-color: #333;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Κύριο Περιεχόμενο */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Υποσέλιδο (Footer) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
